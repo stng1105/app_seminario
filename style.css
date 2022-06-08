@@ -51,3 +51,28 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+
+main .button-container {
+  width: 28rem;
+  height: 5rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  cursor: pointer;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.button-container a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(73, 70, 70);
+}
+
+main .button-container:hover {
+  background-color: antiquewhite;
+  border: 0.1rem solid brown;
+}
+main .button-container:active {
+  background-color: antiquewhite;
+}
