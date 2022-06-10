@@ -50,9 +50,49 @@ main {
 }
 
 main .formulario-datos {
-  border: 1px solid red;
   width: 23rem;
   height: 15rem;
   min-width: 22.8rem;
   margin: 0 auto;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.formulario-datos input {
+  margin: 1rem 0rem;
+  line-height: 3rem;
+  background: none;
+  outline: 0;
+  border: 0;
+  color: rgb(73, 70, 70);
+  border-bottom: 0.1rem solid dodgerblue;
+}
+
+.formulario-datos input:focus {
+  border-bottom: 0.1rem solid dodgerblue;
+}
+
+.formulario-datos button {
+  width: 70%;
+  height: 3rem;
+  margin: 1rem 0rem;
+  margin-top: 3rem;
+  background-color: dodgerblue;
+  border: 0;
+  outline: 0;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+.formulario-datos button:active {
+  background-color: aquamarine;
+}
+
+.btn-agregar a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
 }
