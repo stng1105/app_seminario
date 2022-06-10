@@ -18,10 +18,9 @@ body {
 }
 
 header .header-container {
-  border: 1px solid black;
-  width: 90%;
+  width: 100%;
   height: auto;
-  margin: 10rem auto;
+  margin: 2rem auto;
   padding: 1rem;
   min-width: 22.8rem;
 }
@@ -32,4 +31,28 @@ header .header-container {
   font-weight: bold;
   color: rgb(73, 70, 70);
   line-height: 2.6rem;
+}
+
+.header-container .logo-container {
+  width: 320px;
+  height: 220px;
+  margin: 3rem auto;
+  /* border: 1px solid black; */
+  background-image: url(./assets/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+main .formulario-datos {
+  border: 1px solid red;
+  width: 23rem;
+  height: 15rem;
+  min-width: 22.8rem;
+  margin: 0 auto;
 }
