@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Comfortaa", cursive;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./assets/background.jpg);
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+header .header-container {
+  border: 1px solid black;
+  width: 90%;
+  height: auto;
+  margin: 10rem auto;
+  padding: 1rem;
+  min-width: 22.8rem;
+}
+.header-container h1 {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: rgb(73, 70, 70);
+  line-height: 2.6rem;
+}

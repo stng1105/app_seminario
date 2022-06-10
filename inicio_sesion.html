@@ -12,7 +12,7 @@
     <meta name="author" content="Santiago Campos" />
     <meta http-equiv="”Content-Language”" content="”es”" />
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo.png" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles_sesion.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,16 +23,29 @@
   </head>
   <body>
     <header>
-      <h1 class="tittle">BIENVENIDO A:</h1>
-      <div class="logo-container"></div>
+      <div class="header-container">
+        <h1>INICIAR SESIÓN</h1>
+        <div class="logo-container">logo</div>
+      </div>
     </header>
     <main>
-      <button class="button-container">
-        <a href="./inicio_sesion.html">INICIAR SESIÓN</a>
-      </button>
-      <button class="button-container">
-        <a href="./registrarse.html">REGISTARSE</a>
-      </button>
+      <div class="formulario-datos">
+        <input
+          type="email"
+          class="email"
+          placeholder="Ingrese su correo electrónico"
+          required
+          autocomplete="email"
+        />
+        <input
+          type="password"
+          class="contraseña"
+          placeholder="Contraseña"
+          required
+          autocomplete="current-password"
+        />
+        <button class="btn-agregar">Agregar contacto</button>
+      </div>
     </main>
   </body>
 </html>
