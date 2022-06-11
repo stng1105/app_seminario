@@ -23,29 +23,40 @@
   </head>
   <body>
     <header>
-      <h1>PERFIL:</h1>
-      <div>Imagén</div>
-      <p>Hola: usuario</p>
-      <p>Tus estadísticas:</p>
+      <div class="header-container">
+        <h1>PERFIL:</h1>
+        <div></div>
+        <h2 id="nombre">Hola: ______</h2>
+      </div>
     </header>
     <hr />
     <main>
-      <div>
-        <p>Viajes</p>
-        <span>#</span>
-      </div>
-      <div>
-        <p>Pagos</p>
-        <span>$</span>
-      </div>
-      <div>
-        <p>Distancia total</p>
-        #
+      <p class="tittle-es">Tus estadísticas:</p>
+      <div class="es-container">
+        <div class="es-container__item">
+          <p class="es-container__p">Viajes</p>
+          <span class="es-container__logo"></span>
+        </div>
+        <div class="es-container__item">
+          <p class="es-container__p">Pagos</p>
+          <span class="es-container__logo"></span>
+        </div>
+        <div class="es-container__item">
+          <p class="es-container__p">Distancia total</p>
+          <span class="es-container__logo"></span>
+        </div>
       </div>
     </main>
     <hr />
-    <h2>VIAJAR!</h2>
-    <button type="submit"><a href="./viajar.html">Volador</a></button>
-    <button type="submit"><a href="./viajar.html">Minas</a></button>
+    <h3 class="caption">VIAJAR DESDE</h3>
+    <div class="button-container">
+      <button type="submit" class="button-container__item">
+        <a href="./viajar.html">Volador</a>
+      </button>
+      <button type="submit" class="button-container__item">
+        <a href="./viajar.html">Minas</a>
+      </button>
+    </div>
   </body>
+  <script src="./perfil.js"></script>
 </html>

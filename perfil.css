@@ -14,3 +14,155 @@ body {
   /* background-repeat: no-repeat; */
   background-size: cover;
 }
+
+header {
+  margin-top: 5rem;
+  width: 100%;
+  height: auto;
+  min-width: 32rem;
+}
+
+header .header-container {
+  /* border: 1px solid red; */
+  width: 90%;
+  min-width: 320px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header-container h1 {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: rgb(73, 70, 70);
+  line-height: 2.6rem;
+}
+
+.header-container div {
+  width: 10rem;
+  height: 10rem;
+  margin: 3rem auto;
+  /* border: 1px solid black; */
+  background-image: url(./assets/perfil.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container h2 {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(73, 70, 70);
+  line-height: 2.6rem;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  text-align: center;
+}
+
+main .tittle-es {
+  margin: 0.5rem auto;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(73, 70, 70);
+  line-height: 2.6rem;
+}
+
+main .es-container {
+  width: 90%;
+  min-width: 320px;
+  height: auto;
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+}
+
+.es-container .es-container__item {
+  width: 90%;
+  height: 3rem;
+  margin: 0.5rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.1rem solid rgb(73, 70, 70);
+  border-radius: 5rem;
+}
+.es-container .es-container__item:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.es-container .es-container__p {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgb(73, 70, 70);
+  line-height: 2.6rem;
+  padding-left: 1rem;
+}
+
+.es-container .es-container__logo {
+  width: 3rem;
+  height: 3rem;
+  background-image: url(./assets/icon_esta2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  width: 50%;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgb(73, 70, 70);
+  line-height: 2.6rem;
+  padding-left: 1rem;
+}
+
+.button-container {
+  width: 90%;
+  min-width: 320px;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-container__item {
+  width: 10rem;
+  height: 3rem;
+  background-color: dodgerblue;
+  border: 0;
+  outline: 0;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+.button-container__item:active {
+  background-color: aquamarine;
+}
+
+.button-container__item a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+}
