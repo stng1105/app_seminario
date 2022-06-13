@@ -97,6 +97,9 @@ main .map-container {
 .map-container #station-2 {
   background-image: url(./assets/volador2.png);
 }
+.map-container #station-3 {
+  background-image: url(./assets/station-3.png);
+}
 
 .map-container #station-robledo {
   background-image: url(./assets/minas1.png);

@@ -11,14 +11,15 @@ html {
 body {
   width: 100%;
   height: auto;
-  background-image: url(./assets/background.jpg);
+  background-image: url(./assets/pagar.png);
   background-position: center;
   /* background-repeat: no-repeat; */
   background-size: cover;
 }
 body div {
-  width: 25rem;
+  width: 100%;
   height: 60rem;
   margin: 1rem auto;
   background-image: url(./assets/pagar.png);
+  background-repeat: no-repeat;
 }
