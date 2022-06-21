@@ -11,15 +11,40 @@ html {
 body {
   width: 100%;
   height: auto;
-  background-image: url(./assets/pagar.png);
+  background-image: url(./assets/background.jpg);
   background-position: center;
   /* background-repeat: no-repeat; */
   background-size: cover;
 }
-body div {
-  width: 100%;
-  height: 60rem;
+
+.saldo {
+  width: 60%;
+  height: auto;
+  margin: 3rem auto;
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(73, 70, 70);
+  line-height: 3rem;
+}
+
+body .qr-container {
+  width: 320px;
+  height: 320px;
   margin: 1rem auto;
-  background-image: url(./assets/pagar.png);
-  background-repeat: no-repeat;
+  background-image: url(./assets/qrcode_239787242_.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.saldo-container {
+  width: 60%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+.saldo-container .text {
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(73, 70, 70);
+  margin: 1rem;
 }
